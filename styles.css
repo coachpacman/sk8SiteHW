@@ -1,0 +1,10 @@
+html {
+	box-sizing: border-box;	
+	background: url(assets/bg.jpg);
+	background-size: cover;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
