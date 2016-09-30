@@ -223,7 +223,7 @@ h5 {
 
 #footer {
 	width: 1000px;
-	height: 235px;
+	height: 270px;
 	margin-top: 25px;
 	padding: 30px;
 	background: #F2F2F2;
@@ -243,12 +243,12 @@ h5 {
 }
 
 #footer div:first-child {
-	width: 60%;
+	width: 51%;
+	margin-right: 35px;
 }
 
 #footer div:nth-child(2) {
-	width: 40%;
-	background: orange;
+	width: 45%;
 }
 
 .footCol > p:nth-child(2) {
@@ -278,6 +278,29 @@ h5 {
 .fa-youtube:before {
 	color: #939393;
 }	
+
+input {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	outline: none;
+	padding: 5px;
+	padding-left: 10px;
+	color: #C2C2C2;
+	font-size: 12px;
+	border-left: 3px solid #AEAEAE;
+}
+
+input[type=textarea] {
+	height: 113px;
+}
+
+input[type=submit] {
+	background-color: #B4292E;
+	border: none;
+	width: 171px;
+	float: right;
+}
 
 
 /*.nav2 {
