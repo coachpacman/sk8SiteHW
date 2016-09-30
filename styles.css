@@ -211,6 +211,8 @@ h5 {
  	justify-content: space-around;
  	background: #fff;
  	padding: 12px;
+ 	border-bottom: 5px solid rgba(132,131,129,0.5);
+
 
  }
 
@@ -221,8 +223,61 @@ h5 {
 
 #footer {
 	width: 1000px;
+	height: 235px;
 	margin-top: 25px;
+	padding: 30px;
+	background: #F2F2F2;
+	border-bottom: 5px solid rgba(132,131,129,0.5);
+	margin-bottom: 50px;
+
 }
+
+#footer div{
+	float: left;
+
+}
+
+#footer div p {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+#footer div:first-child {
+	width: 60%;
+}
+
+#footer div:nth-child(2) {
+	width: 40%;
+	background: orange;
+}
+
+.footCol > p:nth-child(2) {
+	line-height: 175%;
+}
+
+.footSocial {
+	margin-right: 5px;
+	height: 30px;
+	width: 30px;
+	padding-top: 7px;
+	text-align: center;
+}
+
+.footCol i {
+	color: #7A7A7A;
+}
+
+.fa-twitter:before {
+	color: #9D9D9D;	
+}
+
+.fa-feed:before, .fa-rss:before {
+	color: #BDBDBD;	
+}
+
+.fa-youtube:before {
+	color: #939393;
+}	
 
 
 /*.nav2 {
