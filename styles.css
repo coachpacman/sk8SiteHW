@@ -204,19 +204,25 @@ h5 {
 
  #gallery {
  	width: 1000px;
+ 	height: 243px;
  	clear: both;
  	margin-top: 25px;
  	display: flex;
  	justify-content: space-around;
+ 	background: #fff;
+ 	padding: 12px;
 
  }
 
  .galleryItem img {
- 	height: 175px;
- 	width: 45px;
+ 	height: 222px;
+ 	width: 61px;
  }
 
-
+#footer {
+	width: 1000px;
+	margin-top: 25px;
+}
 
 
 /*.nav2 {
